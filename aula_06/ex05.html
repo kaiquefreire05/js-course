@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 06 JS</title>
+    <link rel="stylesheet" type="text/css" href="ex03.css"/>
+</head>
+<body>
+    <h1>Olá, mundo!</h1> <!-- Comentário em html -->
+    <p>Aula 06 de javascript</p>
+    <p>Exercício 6</p>
+    <script>
+        var nome = window.prompt('Qual seu nome? ')
+        document.write(`Olá <strong>${nome}</strong>. Seu nome tem ${nome.length} letras.</br>`)
+        document.write(`Seu nome em maiúsculo fica ${nome.toUpperCase()}</br>`)
+        document.write(`Seu nome em minúsculas fica ${nome.toLowerCase()}</br>`)
+        var salario = 1545.5
+        salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+    </script>
+</body>
+</html>

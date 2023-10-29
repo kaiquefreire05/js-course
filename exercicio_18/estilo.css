@@ -1,0 +1,59 @@
+body {
+    background: rgb(107, 107, 241);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.312);
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+div#conteudo {
+    text-align: center;
+
+}
+
+input[type="number"] {
+    width: 100px;
+    /* Define a largura desejada */
+    padding: 10px;
+    /* Define o preenchimento desejado */
+    margin-left: 10px;
+    /* Adicionando borda na esquerda */
+    border: 1px solid rgb(107, 107, 241);
+    /* Adicione uma borda */
+    border-radius: 5px;
+    /* Adicione cantos arredondados */
+    font-size: 16px;
+    /* Altere o tamanho da fonte */
+    color: black;
+    /* Altere a cor do texto */
+    background-color: #f0f0f0;
+    /* Altere a cor de fundo */
+}
+
+input[type="button"] {
+    border: 1px solid rgb(107, 107, 241);
+    border-radius: 5px;
+    font: normal 16px arial;
+    background-color: #f0f0f0;
+    padding: 10px;
+    width: 150px;
+    
+}

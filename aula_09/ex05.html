@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+
+            background-color: rgb(43, 28, 64);
+            color: white;
+            font: normal 20px arial;
+            text-align: center;
+        }
+        h1 {
+            border-style: dashed;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando os estudos em DOM!</h1>
+    <p>Aqui vai o resultado:</p>
+    <div>Clique em mim</div>
+    <script>
+        var d = window.document.getElementsByTagName('p')[0]
+        d.innerText = 'Aqui mudou'
+
+    </script>
+</body>
+</html>

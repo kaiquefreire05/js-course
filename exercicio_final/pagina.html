@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de valores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>Analisador de valores</header>
+    <section>
+        <div id="inputs">
+            <p>Número (entre 1 e 100):
+                <input type="number" id="txt_num" min="0">
+                <input type="button" value="Adicionar" class="btn_adicionar" onclick="Adicionar()">
+            </p>
+        </div>
+        <div id="tabela">
+            <p>
+                <select name="valores" id="slc_vals" size="10"></select>
+            </p>
+            <p>
+                <input type="button" class="btn_finalizar" id="finalizar" value="Finalizar" onclick="Finalizar()">
+            </p>
+        </div>
+        <div class="respostas"></div>
+    </section>
+    <footer>&copy; Kaíque Freire </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

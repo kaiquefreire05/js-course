@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(135, 105, 223);
+    font: normal 18px arial;
+    color: aliceblue;
+}
+
+header {
+    text-align: center;
+    font: bolder 25px arial;
+    padding-bottom: 50px;
+
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    margin: auto;
+    height: 500px;
+    width: 550px;
+    color: black;
+}
+
+p {
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+select {
+    margin-left: 50px;
+    padding-right: 200px;
+}
+
+footer {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.btn_adicionar {
+    /*Cria uma margem abaixo*/
+    margin-bottom: 15px;
+    /* Cria uma margem acima*/
+    margin-top: 12px;
+    /* Torna o elemento um bloco inline com espaço acima e abaixo */
+    display: inline-block;
+    /* Adiciona preenchimento interno de 10px na parte superior e inferior e 20px nos lados */
+    padding: 10px 20px;
+    /* Define o tamanho da fonte como 16 pixels */
+    font-size: 16px;
+    /* Define a cor de fundo do botão como azul desejar */
+    background-color: rgb(135, 105, 223);
+    /* Define a cor do texto co12mo aliceblue */
+    color: aliceblue;
+    /* Remove a borda ao redor do botão */
+    border: none;
+    /* Adiciona cantos arredondados de 5px ao botão */
+    border-radius: 5px;
+    /* Define o cursor do mouse como uma mão para indicar que é clicável */
+    cursor: pointer;
+    /* Alinha o texto centralmente no botão */
+    text-align: center;
+    /* Remove a decoração de texto, como sublinhado, do botão */
+    text-decoration: none;
+    /* Adiciona uma transição suave para a mudança de cor de fundo */
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo quando o mouse passa por cima do botão */
+.btn_adicionar:hover {
+    /* Muda a cor de fundo para um azul mais claro (#2980b9) ao passar o mouse */
+    background-color: rgb(101, 89, 139);
+}
+
+/* Estilo quando o botão está ativo (clicado) */
+.btn_adicionar:active {
+    /* Muda a cor de fundo para um azul ainda mais claro (#1f618d) quando clicado */
+    background-color: rgb(135, 105, 223);
+}
+
+
+.btn_finalizar {
+    /*Cria uma margem abaixo*/
+    margin-bottom: 15px;
+    /* Cria uma margem acima*/
+    margin-top: 12px;
+    /* Torna o elemento um bloco inline com espaço acima e abaixo */
+    display: inline-block;
+    /* Adiciona preenchimento interno de 10px na parte superior e inferior e 20px nos lados */
+    padding: 10px 20px;
+    /* Define o tamanho da fonte como 16 pixels */
+    font-size: 16px;
+    /* Define a cor de fundo do botão como azul desejar */
+    background-color: rgb(135, 105, 223);
+    /* Define a cor do texto co12mo aliceblue */
+    color: aliceblue;
+    /* Remove a borda ao redor do botão */
+    border: none;
+    /* Adiciona cantos arredondados de 5px ao botão */
+    border-radius: 5px;
+    /* Define o cursor do mouse como uma mão para indicar que é clicável */
+    cursor: pointer;
+    /* Alinha o texto centralmente no botão */
+    text-align: center;
+    /* Remove a decoração de texto, como sublinhado, do botão */
+    text-decoration: none;
+    /* Adiciona uma transição suave para a mudança de cor de fundo */
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo quando o mouse passa por cima do botão */
+.btn_finalizar:hover {
+    /* Muda a cor de fundo para um azul mais claro (#2980b9) ao passar o mouse */
+    background-color: rgb(101, 89, 139);
+}
+
+/* Estilo quando o botão está ativo (clicado) */
+.btn_finalizar:active {
+    /* Muda a cor de fundo para um azul ainda mais claro (#1f618d) quando clicado */
+    background-color: rgb(135, 105, 223);
+}
+
+.respostas {
+    text-align: center;
+    font: normal 
+}

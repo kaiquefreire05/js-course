@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(40, 40, 131);
+    font: normal 20px arial;
+    color: aliceblue;
+}
+
+header {
+    text-align: center;
+
+}
+section {
+    padding-top: 10px;
+    background-color: aliceblue;
+    color: black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.312);
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    font-style: italic;
+    padding-bottom: 35px;
+}
+
+.btn{
+    /*Cria uma margem abaixo*/
+    margin-bottom: 15px;
+    /* Cria uma margem acima*/
+    margin-top: 12px;
+    /* Torna o elemento um bloco inline com espaço acima e abaixo */
+    display: inline-block;
+    /* Adiciona preenchimento interno de 10px na parte superior e inferior e 20px nos lados */
+    padding: 10px 20px;
+    /* Define o tamanho da fonte como 16 pixels */
+    font-size: 16px;
+    /* Define a cor de fundo do botão como azul desejar */
+    background-color: rgb(40, 40, 131);
+    /* Define a cor do texto co12mo aliceblue */
+    color: aliceblue;
+    /* Remove a borda ao redor do botão */
+    border: none;
+    /* Adiciona cantos arredondados de 5px ao botão */
+    border-radius: 5px;
+    /* Define o cursor do mouse como uma mão para indicar que é clicável */
+    cursor: pointer;
+    /* Alinha o texto centralmente no botão */
+    text-align: center;
+    /* Remove a decoração de texto, como sublinhado, do botão */
+    text-decoration: none;
+    /* Adiciona uma transição suave para a mudança de cor de fundo */
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Estilo quando o mouse passa por cima do botão */
+  .btn:hover {
+    /* Muda a cor de fundo para um azul mais claro (#2980b9) ao passar o mouse */
+    background-color: #0b4063;
+  }
+  
+  /* Estilo quando o botão está ativo (clicado) */
+  .btn:active {
+    /* Muda a cor de fundo para um azul ainda mais claro (#1f618d) quando clicado */
+    background-color: #1f618d;
+}
+
+footer {
+    padding-top: 30px;
+    text-align: center;
+}

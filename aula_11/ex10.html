@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Multas</title>
+    <style>
+        body {
+            text-align: center;
+            margin-top: 200px;
+        }
+
+        div#tabela {
+            border-style: double;
+            margin-left: 500px;
+            margin-right: 500px;
+            padding-top: 100px;
+            padding-bottom: 100px;
+
+        }
+
+        h1 {
+            font: bold 20pt arial;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="tabela">
+
+        <!-- Aqui a parte da interface -->
+        <h1>Atividade Sistema de Multas</h1>
+        Velocidade do Carro: <input type="number" id="txtvel"> Km/h<br><br>
+        <input type="button" id="btn_verificar" value="Verificar" onclick="Calcular()">
+        <div id="res">
+
+        </div>
+
+        <!-- Aqui é o código JavaScript -->
+        <script>
+            function verificar() {
+                var pais = window.document.getElementById('txt_nacionalidade').value;
+                var resposta = document.getElementById('res');
+
+                if (pais.toLowerCase() !== 'brasil') {
+                    resposta.innerHTML = 'Você é estrangeiro!';
+                } else {
+                    resposta.innerHTML = 'Você é do Brasil!';
+                }
+            }
+        </script>
+</body>
+
+</html>

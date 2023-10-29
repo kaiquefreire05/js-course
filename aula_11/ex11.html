@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <style>
+        body {
+            text-align: center;
+            margin-top: 200px;
+        }
+
+        div#tabela {
+            border-style: double;
+            margin-left: 500px;
+            margin-right: 500px;
+            padding-top: 100px;
+            padding-bottom: 100px;
+
+        }
+
+        h1 {
+            font: bold 20pt arial;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Nacionalidade</h1>
+    <P>Seu país de nascimento é:</P><input type="text" id="txt_nacionalidade"><br><br>
+    <input type="button" id="btn_verificar" value="Verificar" onclick="verificar()"><br><br>
+    <div id="res">
+
+        <!-- Abaixo vai começar o JavaScript-->
+        <script>
+            function verificar() {
+                var pais = window.document.getElementById('txt_nacionalidade').value;
+                var resposta = document.getElementById('res');
+
+                if (pais.toLowerCase() !== 'brasil') {
+                    resposta.innerHTML = 'Você é estrangeiro!';
+                } else {
+                    resposta.innerHTML = 'Você é do Brasil!';
+                }
+            }
+        </script>
+</body>
+
+</html>
